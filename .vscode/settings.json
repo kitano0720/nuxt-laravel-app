@@ -1,0 +1,16 @@
+{
+  "php.validate.executablePath": "./docker/api/php.sh",
+  "phpunit.command": "docker-compose exec api",
+  "phpunit.phpunit": "vendor/bin/phpunit",
+  "phpunit.paths": {
+    "/laravel-app": "var/www/laravel-app",
+    "${workspaceFolder}": "/"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true
+}
